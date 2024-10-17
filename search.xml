@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>基于 Hexo 的 Redefine 主题博客快速搭建</title>
-    <url>/2024/09/24/Hexo-Redefine%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h4 id="下载安装-Node-js"><a href="#下载安装-Node-js" class="headerlink" title="下载安装 Node.js"></a>下载安装 Node.js</h4><p><a class="link"   href="http://nodejs.org/" >Node.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</p>
-<h4 id="下载安装-Git"><a href="#下载安装-Git" class="headerlink" title="下载安装 Git"></a>下载安装 Git</h4><p><a class="link"   href="http://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://blog.csdn.net/qq_45730223/article/details/131693287?ops_request_misc=%257B%2522request%255Fid%2522%253A%25224DD29249-3A0C-447C-8D4A-7DF697F21290%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=4DD29249-3A0C-447C-8D4A-7DF697F21290&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-131693287-null-null.142%5Ev100%5Epc_search_result_base9&utm_term=git%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187" >安装详解 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> (个人建议终端选Windows终端并勾选内置集成)</p>
-<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>全局安装：</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
-<p>切换目录：</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;`</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="安装-Redefine"><a href="#安装-Redefine" class="headerlink" title="安装 Redefine"></a>安装 Redefine</h2><h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><p>使用 npm :</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
-<p>或使用 git :</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redefine</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h4><p>在 Hexo 根目录的 _config.yml 文件中，将 theme 值修改为 redefine</p>
-<h4 id="创建配置文件"><a href="#创建配置文件" class="headerlink" title="创建配置文件"></a>创建配置文件</h4><p>在 Hexo 根目录下创建 _config.redefine.yml 文件并将<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml" >此处 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>的所有内容复制进去<br>去康康荆雪改的配置文件吧，附带了部分中文注释喔，可以copy一下下</p>
-<h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>诶诶，搞好了，去耍吧去耍吧</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a class="link"   href="https://hexo.io/docs/" >Hexo官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://redefine-docs.ohevan.com/getting-started" >Redefine官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>你可能需要：<br><a class="link"   href="https://blog.csdn.net/" >CSDN <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://www.baidu.com/" >Baidu <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>以及一个会思考的大脑（僵尸勿进）和正常的搜索能力</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hexo 常用命令</title>
     <url>/2024/10/12/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p>参考<a class="link"   href="https://hexo.io/docs/commands" >Hexo官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -42,6 +20,28 @@
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></div>
 
 <h4 id="清空本地生成的静态文件"><a href="#清空本地生成的静态文件" class="headerlink" title="清空本地生成的静态文件"></a>清空本地生成的静态文件</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></div>
+]]></content>
+  </entry>
+  <entry>
+    <title>基于 Hexo 的 Redefine 主题博客快速搭建</title>
+    <url>/2024/09/24/Hexo-Redefine%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h4 id="下载安装-Node-js"><a href="#下载安装-Node-js" class="headerlink" title="下载安装 Node.js"></a>下载安装 Node.js</h4><p><a class="link"   href="http://nodejs.org/" >Node.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</p>
+<h4 id="下载安装-Git"><a href="#下载安装-Git" class="headerlink" title="下载安装 Git"></a>下载安装 Git</h4><p><a class="link"   href="http://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://blog.csdn.net/qq_45730223/article/details/131693287?ops_request_misc=%257B%2522request%255Fid%2522%253A%25224DD29249-3A0C-447C-8D4A-7DF697F21290%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=4DD29249-3A0C-447C-8D4A-7DF697F21290&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-131693287-null-null.142%5Ev100%5Epc_search_result_base9&utm_term=git%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187" >安装详解 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> (个人建议终端选Windows终端并勾选内置集成)</p>
+<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>全局安装：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
+<p>切换目录：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;`</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="安装-Redefine"><a href="#安装-Redefine" class="headerlink" title="安装 Redefine"></a>安装 Redefine</h2><h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><p>使用 npm :</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
+<p>或使用 git :</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redefine</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h4><p>在 Hexo 根目录的 _config.yml 文件中，将 theme 值修改为 redefine</p>
+<h4 id="创建配置文件"><a href="#创建配置文件" class="headerlink" title="创建配置文件"></a>创建配置文件</h4><p>在 Hexo 根目录下创建 _config.redefine.yml 文件并将<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml" >此处 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>的所有内容复制进去<br>去康康荆雪改的配置文件吧，附带了部分中文注释喔，可以copy一下下</p>
+<h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>诶诶，搞好了，去耍吧去耍吧</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a class="link"   href="https://hexo.io/docs/" >Hexo官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://redefine-docs.ohevan.com/getting-started" >Redefine官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>你可能需要：<br><a class="link"   href="https://blog.csdn.net/" >CSDN <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://www.baidu.com/" >Baidu <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>以及一个会思考的大脑（僵尸勿进）和正常的搜索能力</p>
 ]]></content>
   </entry>
   <entry>
@@ -74,7 +74,9 @@
   <entry>
     <title>荆雪の语录</title>
     <url>/2024/09/09/%E8%8D%86%E9%9B%AA%E3%81%AE%E8%AF%AD%E5%BD%95/</url>
-    <content><![CDATA[<h4 id="24-10-6"><a href="#24-10-6" class="headerlink" title="24.10.6"></a>24.10.6</h4><p>我可以孑然一身 但不能心无所属</p>
+    <content><![CDATA[<h4 id="24-10-16"><a href="#24-10-16" class="headerlink" title="24.10.16"></a>24.10.16</h4><p>听错了风 又怎么会有以后</p>
+<h4 id="24-10-15"><a href="#24-10-15" class="headerlink" title="24.10.15"></a>24.10.15</h4><p>烟波江畔渔船 今宵灯火阑珊</p>
+<h4 id="24-10-6"><a href="#24-10-6" class="headerlink" title="24.10.6"></a>24.10.6</h4><p>我可以孑然一身 但不能心无所属</p>
 <h4 id="24-10-5"><a href="#24-10-5" class="headerlink" title="24.10.5"></a>24.10.5</h4><p>相濡以沫平山海 风雨同舟共春秋（小过给的）</p>
 <p>夜暗方显万颗星，灯明始见一缕尘 – 七堇年</p>
 <p>愿我如星君如月，夜夜流光相皎洁 – 范成大</p>
