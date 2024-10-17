@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 常用命令</title>
-    <url>/2024/10/12/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>参考<a class="link"   href="https://hexo.io/docs/commands" >Hexo官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><h4 id="新建新的文章"><a href="#新建新的文章" class="headerlink" title="新建新的文章"></a>新建新的文章</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></div>
-<p>如没有设置 layout 将默认使用 _config.yml 中的 default_layout 参数代替<br>如标题包含空格的使用引号括起来</p>
-<h4 id="About-Page"><a href="#About-Page" class="headerlink" title="About Page"></a>About Page</h4><p>建议直接执行这个简单的命令而非官方文档中再指定路径与标题的方法（虽然说学多亿点不是坏事）</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="预览-部署"><a href="#预览-部署" class="headerlink" title="预览&amp;部署"></a>预览&amp;部署</h2><h4 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="本地生成静态文件"><a href="#本地生成静态文件" class="headerlink" title="本地生成静态文件"></a>本地生成静态文件</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></div>
-<p>可简写为</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="本地生成静态文件后通过git部署"><a href="#本地生成静态文件后通过git部署" class="headerlink" title="本地生成静态文件后通过git部署"></a>本地生成静态文件后通过git部署</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
-<p>可简写为</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="清空本地生成的静态文件"><a href="#清空本地生成的静态文件" class="headerlink" title="清空本地生成的静态文件"></a>清空本地生成的静态文件</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></div>
-]]></content>
-  </entry>
-  <entry>
     <title>基于 Hexo 的 Redefine 主题博客快速搭建</title>
     <url>/2024/09/24/Hexo-Redefine%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h4 id="下载安装-Node-js"><a href="#下载安装-Node-js" class="headerlink" title="下载安装 Node.js"></a>下载安装 Node.js</h4><p><a class="link"   href="http://nodejs.org/" >Node.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</p>
@@ -42,6 +20,28 @@
 <h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>诶诶，搞好了，去耍吧去耍吧</p>
 <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a class="link"   href="https://hexo.io/docs/" >Hexo官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://redefine-docs.ohevan.com/getting-started" >Redefine官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>你可能需要：<br><a class="link"   href="https://blog.csdn.net/" >CSDN <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   href="https://www.baidu.com/" >Baidu <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>以及一个会思考的大脑（僵尸勿进）和正常的搜索能力</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo 常用命令</title>
+    <url>/2024/10/12/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>参考<a class="link"   href="https://hexo.io/docs/commands" >Hexo官方文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><h4 id="新建新的文章"><a href="#新建新的文章" class="headerlink" title="新建新的文章"></a>新建新的文章</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></div>
+<p>如没有设置 layout 将默认使用 _config.yml 中的 default_layout 参数代替<br>如标题包含空格的使用引号括起来</p>
+<h4 id="About-Page"><a href="#About-Page" class="headerlink" title="About Page"></a>About Page</h4><p>建议直接执行这个简单的命令而非官方文档中再指定路径与标题的方法（虽然说学多亿点不是坏事）</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="预览-部署"><a href="#预览-部署" class="headerlink" title="预览&amp;部署"></a>预览&amp;部署</h2><h4 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="本地生成静态文件"><a href="#本地生成静态文件" class="headerlink" title="本地生成静态文件"></a>本地生成静态文件</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>可简写为</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="本地生成静态文件后通过git部署"><a href="#本地生成静态文件后通过git部署" class="headerlink" title="本地生成静态文件后通过git部署"></a>本地生成静态文件后通过git部署</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>可简写为</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="清空本地生成的静态文件"><a href="#清空本地生成的静态文件" class="headerlink" title="清空本地生成的静态文件"></a>清空本地生成的静态文件</h4><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></div>
 ]]></content>
   </entry>
   <entry>
