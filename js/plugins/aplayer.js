@@ -9,7 +9,7 @@
       artist: audio.artist,
       url: audio.url,
       cover: audio.cover,
-      lrc: audio.lrc,
+      //lrc: audio.lrc,
       theme: audio.theme,
     };
     audioList.push(audioObj);
