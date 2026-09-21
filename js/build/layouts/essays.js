@@ -1,2 +1,1 @@
-export default function initEssays(){const t=document.querySelectorAll(".essay-date");t.length&&t.forEach((t=>{const e=t.getAttribute("data-date"),n=config.language||"en",a=moment(e).locale(n).calendar();t.textContent=a}))}
-//# sourceMappingURL=essays.js.map
+export default function initEssays(){var e=document.querySelectorAll(".essay-date");e.length&&e.forEach(e=>{var t=e.getAttribute("data-date"),a=config.language||"en",t=moment(t).locale(a).calendar();e.textContent=t})}

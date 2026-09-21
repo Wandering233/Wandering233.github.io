@@ -1,2 +1,1 @@
-let o=null,t=null;export const getAppSignal=()=>(o||(o=new AbortController),o.signal);export const createPageScope=()=>(t&&t.abort(),t=new AbortController,t.signal);export const abortPageScope=()=>{t&&(t.abort(),t=null)};
-//# sourceMappingURL=pageScope.js.map
+let o=null,t=null,getAppSignal=()=>(o=o||new AbortController).signal,createPageScope=()=>(t&&t.abort(),(t=new AbortController).signal),abortPageScope=()=>{t&&(t.abort(),t=null)};export{getAppSignal,createPageScope,abortPageScope};

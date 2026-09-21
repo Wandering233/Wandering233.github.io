@@ -1,15 +1,1 @@
-export default function initEssays() {
-  const dateElements = document.querySelectorAll(".essay-date");
-
-  if (!dateElements.length) {
-    return;
-  }
-
-  dateElements.forEach((element) => {
-    const rawDate = element.getAttribute("data-date");
-    const locale = config.language || "en";
-
-    const formattedDate = moment(rawDate).locale(locale).calendar();
-    element.textContent = formattedDate;
-  });
-}
+export default function initEssays(){var e=document.querySelectorAll(".essay-date");e.length&&e.forEach(e=>{var t=e.getAttribute("data-date"),a=config.language||"en",t=moment(t).locale(a).calendar();e.textContent=t})}

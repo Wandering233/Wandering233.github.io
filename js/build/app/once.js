@@ -1,2 +1,1 @@
-const t=new Set,normalizeKey=t=>String(t).trim().replace(/[^a-zA-Z0-9]/g,"_");export const onceGlobal=(e,n)=>{if("function"!=typeof n)return;const o=normalizeKey(e);t.has(o)||(t.add(o),n())};export const oncePerElement=(t,e,n)=>{if(!t||"function"!=typeof n)return;const o=`redefine${normalizeKey(e)}`;t.dataset[o]||(t.dataset[o]="true",n(t))};
-//# sourceMappingURL=once.js.map
+let t=new Set,normalizeKey=e=>String(e).trim().replace(/[^a-zA-Z0-9]/g,"_"),onceGlobal=(e,n)=>{"function"!=typeof n||(e=normalizeKey(e),t.has(e))||(t.add(e),n())},oncePerElement=(e,t,n)=>{e&&"function"==typeof n&&(t="redefine"+normalizeKey(t),e.dataset[t]||(e.dataset[t]="true",n(e)))};export{onceGlobal,oncePerElement};
